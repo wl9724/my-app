@@ -12,7 +12,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist/"),
   },
   plugins: [
-    // 配置项目使用的html模板文件为index。html
+    // 配置项目使用的html模板文件为client.html
     new HtmlWebpackPlugin({ 
       template: path.resolve('./app/client.html') 
     }),
